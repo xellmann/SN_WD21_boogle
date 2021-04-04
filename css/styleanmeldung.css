@@ -1,0 +1,126 @@
+body {
+    margin: 0;
+    font-family: arial,sans-serif;
+}
+a {
+    text-decoration: none;
+}
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0px solid black;
+    flex-direction: column;
+    height: 100vh;
+}
+.anmeldemenu {
+    border: 1px solid #dadce0;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 450px;
+    max-width: 450px;
+    height: 484px;
+
+}
+.logo {
+    display: flex;
+    width: 75px;
+    border: 0px solid black;
+}
+#anmeldung {
+    color: #202124;
+    padding-bottom: 0;
+    padding-top: 16px;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 1.3333;
+}
+#anmeldeinfo {
+    color: #202124;
+    padding-bottom: 0;
+    padding-top: 8px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+}
+.anmeldefeld {
+    border: 0px solid black;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 0;
+    padding-top: 20px;
+    width: 350px;
+}
+#emailvergessen {
+    padding-bottom: 3px;
+    padding-top: 9px;
+    display: flex;
+    justify-content: flex-start;
+    width: 350px;
+}
+#nichtihrcomputer {
+    color: #757575;
+    margin-top: 40px;
+    font-size: 15px;
+    width: 400px;
+}
+.blaueschrift {
+    color: #1a73e8;
+    font-weight: bold;
+    font-size: 15px;
+}
+.registrieren {
+    display: flex;
+    justify-content: space-between;
+    border: 0px solid black;
+    max-width: auto;
+    width: 400px;
+    margin-top: 20px;
+}
+#kontoerstellen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#weiterbutton {
+    border: 1px solid transparent;
+    background: #1a73e8;
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+    margin-right: 8px;
+    margin-left: 8px;
+    min-width: 96px;
+    padding: 9px 23px;
+    text-align: center;
+    vertical-align: middle;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border: 0px solid black;
+    width: 450px;
+    font-size: 12px;
+    padding-top: 24px;
+}
+#land {
+    display: flex;
+    justify-content: flex-start;
+}
+.footer a {
+    color: #202124;
+    text-decoration: none;
+    line-height: 1.4;
+}
+.links a {
+    margin: 10px;
+    color: #757575;
+    font-weight: 550;
+}

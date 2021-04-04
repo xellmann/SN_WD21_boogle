@@ -1,0 +1,210 @@
+body {
+    margin: 0;
+    font-size: 14px;
+    font-family: arial,sans-serif;
+    color: #222;
+}
+.container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+.header {
+    height: 8vh;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.headerlinks1 {
+    padding-right: 15px;
+}
+.headerlinks2 {
+    padding-left: 15px;
+}
+a {
+    color: rgba(0,0,0,0.87);
+    text-decoration: none;
+}
+.headerlinks2:hover {
+    text-decoration: underline;
+}
+.headergrafiken1 {
+    display: flex;
+    align-items: center;
+}
+.headergrafiken2 {
+    height: 38px;
+    width: auto;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.googleappsdiv {
+    padding: 4px;
+    border: 1px solid transparent;
+    width: 38px;
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    vertical-align: middle;
+}
+.googleappsdiv:hover {
+    background: #EEEEEE;
+    display: flex;
+    align-items: center;
+}
+.googleappsgrafik {
+    height: 20px;
+    display: flex;
+    align-items: center;
+}
+.headergrafiken3 {
+    border: 1px solid transparent;
+    background: #1a73e8;
+    color: white;
+    font-weight: 500;
+    font-size: 14px;
+    margin-right: 8px;
+    margin-left: 8px;
+    min-width: 96px;
+    padding: 9px 23px;
+    text-align: center;
+    vertical-align: middle;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+.headergrafiken3:hover {
+    opacity: 0.9;
+    box-shadow: 1px 1px 1px #1a73e8;
+}
+.logodiv {
+    height: 25vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo {
+    max-height: 92px;
+    margin-top: auto;
+    width: auto;
+}
+.suchfeld {
+    height: 22vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.nursuchfeld1 {
+    width: auto;
+    max-width: 584px;
+    height: 134px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #dfe1e5;
+    box-shadow: none;
+    border-radius: 24px;
+    z-index: 3;
+    height: 44px;
+}
+.nursuchfeld2 {
+    background: #fff;
+    border: none;
+    -webkit-appearance: none;
+    margin: 0 auto;
+    width: auto;
+    max-width: 584px;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    padding-right: 20px;
+}
+.suchgrafik2 {
+    opacity: 0.5;
+    padding-right: 13px;
+    max-height: auto;
+    width: 20px;
+}
+.divsuchbuttons {
+    margin: 20px;
+}
+.suchbuttons {
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+}
+.suchbuttons:hover{
+    border: 1px solid #DDDDDD;
+    box-shadow: 0px 2px 0px #EEEEEE;
+}
+.einstellungen {
+    height: 37vh;
+    display: flex;
+}
+.footer {
+    color: rgba(0,0,0,0.54);
+    font-size: 15px;
+    background: #f2f2f2;
+    display: block;
+    flex-direction: column;
+    align-items: center;
+}
+.landesbezeichnung {
+    padding: 15px 30px;
+    display: block;
+    justify-content: flex-start;
+    width: auto;
+}
+.footerlinks {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid #dadce0;
+}
+.footerlinks a {
+    color: rgba(0,0,0,0.54);
+    Font-size: 14px;
+    padding: 15px 30px;
+}
+.footerlinks a:hover {
+    text-decoration: underline;
+}
+.footerlinksleft {
+    display: flex;
+    justify-content: flex-start;
+    min-width: 30%;
+}
+.werbeprogramme {
+    padding: 15px;
+}
+.unternehmen {
+    padding: 15px;
+}
+.funktiongoogle {
+    padding: 15px;
+}
+.footerlinkscenter {
+    display: flex;
+    justify-content: space-between;
+}
+.CO2grafik {
+    height: 14px;
+}
+.footerlinksright {
+    display: flex;
+    justify-content: flex-end;
+    height: auto;
+    min-width: 30%;
+}
